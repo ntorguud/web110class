@@ -6,4 +6,7 @@ https://appzend.herokuapp.com/ftpclient/
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## Mystudentswa
-http://central.mystudentswa.com/naranto/
+http://central.mystudentswa.com/naranto/web110
+
+## TownsendPress
+https://www.townsendpress.net/reader/book/197
