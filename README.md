@@ -9,4 +9,4 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 http://central.mystudentswa.com/naranto/web110
 
 ## TownsendPress
-https://www.townsendpress.net/reader/book/197
+https://www.townsendpress.net/class/170469/book-assignments/172/menu
