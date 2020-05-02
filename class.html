@@ -10,10 +10,13 @@
         padding:0;
         margin:0;
      }
+     /* background image is declared/displayed/ in CSS */
 
     body {
-        background-image:/images/notes.png
         background-color:#fff;
+        background-image:url(images/soccer.jpg);
+        background-repeat:repeat-x;
+        background-attachment:fixed;
         font-family:verdana, helvetica, arial, sans-serif;
     }
     h1 {
@@ -90,14 +93,17 @@
         background-color:orange;     
     }
 
+/* never use opacity!!!! */
+
     #wrapper {
       width:940px;
       margin:30px auto;
 /* margin 0 auto 0 auto centers yout box*/
 /* top, right, bottom and left*/
       padding:20px;
-      background-color:#ccffcc;
+      background-color:rgba(255, 255, 255, .9);
       overflow:hidden;
+    
 
     }
 
@@ -106,6 +112,7 @@
 </head>
 
 <body>
+<!-- foreground images are declared in HTML-->
   <div id="wrapper">
 <h1>This is my Headline 1!</h1>
 <h2>This is my smaller and less important Headline 2!</h2>
@@ -163,11 +170,15 @@
 
 <!-- When an element is floating it is outside of the document FLOW - it is still inside the wrapper, but the wrapper recognized the Homeland list item as the end of the document. It happenswhen you start floating.-->
   <ul>
-    <li><a href="">Little Fires Everywhere</a> </li>
-    <li><a href="">Bombshell</a> </li>
+    <li><a href="https://www.imdb.com/title/tt8228288/?ref_=hm_fanfav_tt_4_pd_fp1">The Platform</a> </li>
     <li><a href="">Parasite</a> </li>
-    <li><a href="">Homeland</a> </li>
+    <li><a href="">Designated Survivor</a> </li>
+    <li><a href="">The Invisible Man</a> </li>
   </ul>
+
+  <hr>
+
+<a target="_blank" href="">VALID!</a>
 
   </div>
 </body>
