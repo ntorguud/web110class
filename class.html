@@ -39,7 +39,6 @@
     h1, h2, h3, h4 {
         margin-bottom:10px;
         font-family: "Times New Roman", Times, serif;
-
     }
 
     p {
@@ -88,17 +87,17 @@
         /* Padding is inside the box*/
 /* when your property is a two word property, you must have a hyphen in between the two word*/
 
-        background:orange;
-        
-
+        background-color:orange;     
     }
+
     #wrapper {
       width:940px;
-      margin:0 auto;
+      margin:30px auto;
 /* margin 0 auto 0 auto centers yout box*/
 /* top, right, bottom and left*/
       padding:20px;
       background-color:#ccffcc;
+      overflow:hidden;
 
     }
 
@@ -131,7 +130,15 @@
   <li>Milk</li>
   <li>Eggs</li>
   <li>Cheese</li>
-  <li>Wine</li>
+  <li>Wines
+    <ul>
+    <!-- When nesting a list, do not close the original li, which would be "Wines" until after the closing ul-->
+      <li>Merlot</li>
+      <li>Cabernet</li>
+      <li>Malbec</li>
+      <li>Syrah</li>
+    </ul>
+    </li>  <!-- closing the "Wines" list-->
   </ul>
 
   <ol>
@@ -153,6 +160,8 @@
 </dl>
 
 <h4>Our Favorite Movies or Shows!</h4>
+
+<!-- When an element is floating it is outside of the document FLOW - it is still inside the wrapper, but the wrapper recognized the Homeland list item as the end of the document. It happenswhen you start floating.-->
   <ul>
     <li><a href="">Little Fires Everywhere</a> </li>
     <li><a href="">Bombshell</a> </li>
