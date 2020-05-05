@@ -1,0 +1,78 @@
+    * {
+        padding:0;
+        margin:0;
+    }
+
+    body {
+        /* font-family:times new roman, helvetica, arial, sans-serif; */
+        padding:80px;
+        background:#bbe5f0;
+        background-image:url(images/notes.png); 
+        background-attachment:fixed;   
+    }
+
+    h1, h2, h3 {
+    margin-bottom:10px;
+    font-family:"Times New Roman", Times, serif;
+    }
+
+    h1 {
+        color:black;
+        font-size:2.5em;
+    }
+
+    h2 {
+        color:black;
+        font-size:2em;
+    }
+
+    p {
+        margin-bottom:24px;
+        line-height:1.5;
+        /* font-size:1.25em; */
+    }
+    
+    img.right {
+        float:right;
+        margin-left:20px;
+    }
+
+    img.left { 
+        float:left;
+        margin-right:30px;
+        margin-bottom:30px;
+    } 
+
+    header {
+       
+    }
+
+    #wrapper {
+      width:940px;
+      margin:20px, auto;
+      background:rgba(246, 197, 197, .8);
+      padding:20px;
+      overflow:hidden;
+    }
+
+    footer {
+        height:50px;
+        line-height:50px;
+        background:#eee;
+        padding-left:20px;
+        font-size:.875em;
+        color:#666;
+        clear:both;
+        /* You cannot do a margin-top on a cleared element */
+
+    }
+
+    footer li {
+        float:left;
+        list-style-type:none;
+        margin-right:30px;
+    }
+
+    footer a {
+        color:#666;
+    }
