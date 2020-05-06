@@ -5,7 +5,7 @@
     }
 
     body {
-        font-family:times new roman, helvetica, arial, sans-serif;
+        font-family:"Times New Roman", helvetica, arial, sans-serif;
         background-color:beige;   
     }
 
@@ -15,7 +15,7 @@
     }
 
     header {
-        background-color:yellow;
+        /* background-color:yellow; */
         padding:10px 0 15px 0;
     }
 
@@ -52,7 +52,7 @@
         max-width:100%;
         display:block;
     }
-
+    
     #logo {
         display:inline;
     }
