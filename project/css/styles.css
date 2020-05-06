@@ -6,8 +6,8 @@
     body {
         /* font-family:times new roman, helvetica, arial, sans-serif; */
         padding:80px;
-        background:#bbe5f0;
-        background-image:url(images/notes.png); 
+        background:lightblue;
+        background-image: url("../images/notes.png"); 
         background-attachment:fixed;   
     }
 
@@ -43,8 +43,10 @@
         margin-bottom:30px;
     } 
 
-    header {
-       
+    .center {
+        margin:0 auto 20px auto;
+        display:block;  
+        text-align:center; 
     }
 
     #wrapper {
@@ -55,13 +57,17 @@
       overflow:hidden;
     }
 
+    header {
+
+    }
+
     footer {
         height:50px;
         line-height:50px;
-        background:#eee;
+        background:#666;
         padding-left:20px;
         font-size:.875em;
-        color:#666;
+        color:#fff;
         clear:both;
         /* You cannot do a margin-top on a cleared element */
 
@@ -71,8 +77,9 @@
         float:left;
         list-style-type:none;
         margin-right:30px;
+        font-color:#fff;
     }
 
     footer a {
-        color:#666;
+        color:#fff;
     }
