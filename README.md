@@ -14,5 +14,5 @@ https://www.townsendpress.net/class/170469/book-assignments/172/menu
 ## CSS Linking
 <link href="css/styles.css" type="text/css" rel="stylesheet">
 
-##JavaScript Linking
+## JavaScript Linking
 <script type="text/javascript" src="script.js"></script>
