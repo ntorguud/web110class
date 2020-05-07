@@ -6,7 +6,7 @@
 
     body {
         font-family:"Times New Roman", helvetica, arial, sans-serif;
-        background-color:beige;   
+        background-color:#fff;   
     }
 
     #wrapper {
@@ -29,23 +29,66 @@
     }
 
     main {
-        background-color:orange;
-        height:400px;
         width:580px;
         float:left;
     }
 
     aside {
         background-color:lightblue;
-        height:300px;
         width:340px;
         float:right;
     }
 
+    h1 {
+        /* font-size:32px; */
+        color:#3E688C;
+        margin-bottom:20px;
+    }
+
+    h2 {
+        /* font-size:24px; */
+        color:#666;
+        margin-bottom:20px;
+    }
+
+    h3 {
+        font-size:1.5em;
+    }
+
+    p {
+        margin-bottom:20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    blockquote {
+        margin-bottom:20px;
+        font-size:24px;
+        font-style:italic;
+        font-family:"Times New Roman", Times, serif;
+        border-left:20px solid orange;
+        padding-left:20px;
+        
+    }
+
     footer {
-        background-color:#aaa;
+        background-color:#fff;
         height:50px;
         clear:both;
+        line-height:50px;
+        padding-left:20px;
+        font-size:.875em; 
+        font-family:Arial, Helvetica, sans-serif;   
+    }
+
+    footer li {
+        float:right;
+        list-style-type:none;
+        margin-right:30px;
+        color:#000;
+    }
+
+    footer a {
+        
     }
 
     img {
