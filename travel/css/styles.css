@@ -40,13 +40,13 @@
     }
 
     h1 {
-        /* font-size:32px; */
+        font-size:2.5em;
         color:#3E688C;
         margin-bottom:20px;
     }
 
     h2 {
-        /* font-size:24px; */
+        font-size:2em;
         color:#666;
         margin-bottom:20px;
     }
