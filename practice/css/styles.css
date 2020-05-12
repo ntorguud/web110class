@@ -6,33 +6,113 @@
 body {
     font-family:"Times New Roman", helvetica, arial, sans-serif;
     background:#ddd;
+    background-image:url(../images/theme2.jpg)
+    background-repeat:no-repeat;
 }
 
 #wrapper {
-    width:940px;
-    margin:20px auto;
-}
+      width:940px;
+      margin:20px auto;
+    }
 
-header {
+    header {
+        /* background-color:yellow; */
+        padding:10px 0 15px 0;
+    }
 
-}
+    nav {
+        background-color:#ddd;
+        height:50px;
+    }
 
-nav {
+    #banner {
+        background-color:red;
+    }
 
-}
+    main {
+        width:580px;
+        float:left;
+    }
 
-#banner {
+    aside {
+        background-color:lightblue;
+        width:340px;
+        float:right;
+    }
 
-}
+    h1 {
+        font-size:2.5em;
+        color:#3E688C;
+        margin-bottom:20px;
+    }
 
-main {
+    h2 {
+        font-size:2em;
+        color:#666;
+        margin-bottom:20px;
+    }
 
-}
+    h3 {
+        font-size:1.5em;
+    }
 
-aside {
+    p {
+        margin-bottom:20px;
+        font-family:Arial, Helvetica, sans-serif;
+        line-height:1.25em;
+    }
 
-}
+    footer {
+        background-color:#fff;
+        height:50px;
+        clear:both;
+        line-height:50px;
+        padding-left:20px;
+        font-size:.875em; 
+        font-family:Arial, Helvetica, sans-serif;   
+    }
 
-footer {
+    footer li {
+        float:right;
+        list-style-type:none;
+        margin-right:30px;
+        color:#000;
+    }
+
+    footer a {
+        
+    }
+
+    img {
+        max-width:100%;
+        display:block;
+    }
     
-}
+    #logo {
+        display:inline;
+    }
+
+#primary {
+        background-color:#666;
+        height:50px;
+        line-height:50px;
+    }
+
+    #primary li {
+        float:left;
+        list-style-type:none;
+        width:20%;
+        text-align:center;
+    }
+
+    #primary a {
+        text-decoration:none;
+        color:#fff;
+        display:block;
+    }
+
+    #primary a:hover {
+        background-color:lightblue;
+        color:#000;
+        text-align:center;
+    }
