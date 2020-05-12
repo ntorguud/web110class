@@ -2,20 +2,52 @@
     * {
         padding:0;
         margin:0;
+        box-sizing:border-box;
+    }
+
+    .home {
+        background-image:url();
+    }
+
+    .about {
+        background-image:url();
+    }
+
+    .tours {
+        background-image:url();
+    }
+
+    .promos {
+        background-image:url();
+    }
+
+    .contact {
+        background-image:url();
     }
 
     body {
-        background-color:#fff;   
+        background-color:#fff;
+        font-family:Arial, Helvetica, sans-serif   
     }
 
     #wrapper {
       width:940px;
-      margin:20px auto;
+      margin:150px auto 20px auto;
     }
 
     header {
         /* background-color:yellow; */
-        padding:10px 0 15px 0;
+        padding:10px 0 0 0;
+        /* background:yellow; */
+        position:fixed;
+        top:0;
+        width:100%;
+        background:rgba(255, 255, 255, .94);
+    }
+
+    .header-inner {
+        width:940px;
+        margin:20px auto;
     }
 
     nav {
@@ -24,7 +56,7 @@
     }
 
     #banner {
-        background-color:red;
+        
     }
 
     main {
@@ -33,9 +65,44 @@
     }
 
     aside {
-        background-color:lightblue;
+        /* background-color:lightblue; */
         width:340px;
         float:right;
+    }
+
+    figcaption {
+        background:#000;
+        color:#fff;
+        padding:8px;
+        font-style:italic;
+        font-size:.9em;
+    }
+
+    figure {
+        margin-bottom:15px;
+    }
+
+    .row {
+        clear:both;
+        margin-bottom:20px;
+        border-bottom:10px;
+    }
+
+    .third {
+        width:300px;
+        height:300px;
+        float:left;
+        margin-right:20px;
+        padding:20px;
+        text-align:center;
+    }
+
+    .third p {
+        
+    }
+
+    .third:nth-child(3) {
+        margin-right:0;
     }
 
     h1 {
@@ -71,24 +138,34 @@
     }
 
     footer {
+        clear:both;
         background-color:#fff;
         height:50px;
-        clear:both;
         line-height:50px;
+        border-top:1px dotted #666;
         padding-left:20px;
         font-size:.875em; 
         font-family:Arial, Helvetica, sans-serif;   
     }
 
-    footer li {
+    footer ul {
         float:right;
+    }
+
+    footer li {
+        float:left;
         list-style-type:none;
         margin-right:30px;
-        color:#000;
+        color:#666;
     }
 
     footer a {
-        
+        color:#666;
+    }
+
+    footer img {
+        height:45px;
+        margin-bottom:4px;
     }
 
     img {
@@ -100,10 +177,25 @@
         display:inline;
     }
 
+    .home #primary li:nth-child(1) a, 
+    .about #primary li:nth-child(2) a,
+    .tours #primary li:nth-child(3) a,
+    .promos #primary li:nth-child(4) a,
+    .contact #primary li:nth-child(5) a {
+        background-color:lightblue;
+        color:#000;
+        text-align:center;
+    }
+    
     #primary {
-        background-color:#666;
+        background-color:#3E688C;
         height:50px;
         line-height:50px;
+    }
+
+    #primary ul {
+        width:1000px;
+        margin:0 auto;
     }
 
     #primary li {
@@ -124,3 +216,5 @@
         color:#000;
         text-align:center;
     }
+
+    
