@@ -17,5 +17,11 @@ https://www.townsendpress.net/class/170469/book-assignments/172/menu
 ## JavaScript Linking
 <script type="text/javascript" src="script.js"></script>
 
-##Validater
-https://validator.w3.org/check?uri=referer%22%3E
+##HTML Validation via Text (local)
+https://validator.w3.org/nu/#textarea
+
+##HTML Validation via URL
+https://validator.w3.org/nu/
+
+## CSS Validation via Text
+http://jigsaw.w3.org/css-validator/#validate_by_input
