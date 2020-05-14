@@ -16,7 +16,6 @@ body {
     width:940px;
     margin:20px auto 0 auto;
     background-color:rgba(222, 184, 135, .8);
-    overflow:hidden;
     border-radius:20px;
 }
 
@@ -53,10 +52,6 @@ img.left {
         width:250px;
 } 
 
-/* img.logos { 
-        width:50px;
-} */
-
 .center {
         margin:0 auto 20px auto;
         display:block;  
@@ -88,6 +83,8 @@ footer {
     clear:both;
     padding-left:20px;
     font-size:.875em;
+    border-radius:0 0 20px 20px;
+
 }
 
 footer ul {
