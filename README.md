@@ -25,3 +25,6 @@ https://validator.w3.org/nu/
 
 ## CSS Validation via Text
 http://jigsaw.w3.org/css-validator/#validate_by_input
+
+##Validating connector link
+<a href="https://validator.w3.org/check?uri=referer">
