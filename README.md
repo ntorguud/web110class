@@ -28,3 +28,12 @@ http://jigsaw.w3.org/css-validator/#validate_by_input
 
 ##Validating connector link
 <a href="https://validator.w3.org/check?uri=referer">
+
+##CIE016 Zoom link
+https://zoom.us/j/656151742?pwd=YWRNK0NHaXBndUJEVDc4S3l4U0Iydz09
+
+##CIE050 Zoom link
+https://zoom.us/j/622721628?pwd=a012REVqVThialFCd3plSHFMclZjQT09
+
+##WEB110 Zoom link
+https://zoom.us/j/627976680
