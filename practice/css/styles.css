@@ -5,9 +5,10 @@
 
 body {
     font-family:"Times New Roman", helvetica, arial, sans-serif;
-    background:#ddd;
-    background-image:url(../images/theme2.jpg)
+    /* background:#ddd; */
+    background-image:url(../images/theme3.jpg);
     background-repeat:no-repeat;
+    font-family:Helvetica, Verdana, Geneva, Tahoma, sans-serif;   
 }
 
 #wrapper {
@@ -16,7 +17,6 @@ body {
     }
 
     header {
-        /* background-color:yellow; */
         padding:10px 0 15px 0;
     }
 
@@ -26,7 +26,7 @@ body {
     }
 
     #banner {
-        background-color:red;
+        
     }
 
     main {
@@ -58,7 +58,6 @@ body {
 
     p {
         margin-bottom:20px;
-        font-family:Arial, Helvetica, sans-serif;
         line-height:1.25em;
     }
 
@@ -69,18 +68,25 @@ body {
         line-height:50px;
         padding-left:20px;
         font-size:.875em; 
-        font-family:Arial, Helvetica, sans-serif;   
+    }
+
+    footer ul {
+        float:right;
     }
 
     footer li {
-        float:right;
+        float:left;
         list-style-type:none;
         margin-right:30px;
         color:#000;
     }
 
     footer a {
-        
+        color:#000;
+    }
+
+    footer img {
+        height:50px;
     }
 
     img {
@@ -90,9 +96,20 @@ body {
     
     #logo {
         display:inline;
+        width:50px;
     }
 
-#primary {
+    .home #primary li:nth-child(1) a, 
+    .about #primary li:nth-child(2) a,
+    .tours #primary li:nth-child(3) a,
+    .promos #primary li:nth-child(4) a,
+    .contact #primary li:nth-child(5) a {
+        background-color:lightblue;
+        color:#000;
+        text-align:center;
+    }
+
+    #primary {
         background-color:#666;
         height:50px;
         line-height:50px;
@@ -100,19 +117,19 @@ body {
 
     #primary li {
         float:left;
-        list-style-type:none;
+        list-style-type:none; /*for disappearing bullets */
         width:20%;
         text-align:center;
     }
 
     #primary a {
-        text-decoration:none;
+        text-decoration:none; /*for disappearing link underline*/
         color:#fff;
         display:block;
     }
 
     #primary a:hover {
-        background-color:lightblue;
+        background:#ccc;
         color:#000;
         text-align:center;
     }
