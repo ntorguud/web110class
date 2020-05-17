@@ -50,10 +50,10 @@
         margin:20px auto;
     }
 
-    nav {
+    /* nav {
         background-color:#ddd;
         height:50px;
-    }
+    } */
 
     #banner {
         
@@ -266,7 +266,7 @@
     #secondary a {
         text-decoration:none; /*for disappearing link underline*/
         color:#000;
-        display:block; /*for covering all hover surface, not the only text */
+        display:block; /*for covering all hover surface, not only text */
         padding-left:15px;
     }
 
@@ -274,28 +274,30 @@
         background:#3E688C;
         color:white;
     }
-
-    #next {
+    #offer {
         background:#fff;
     }
 
-    #next li {
-        list-style-type:none;
+    #buybtn {
+        /* list-style-type:none; */
         background:red;
         height:35px;
         width:100px;
         line-height:35px;
-        float:right;
+        /* float:right; */
         font-style:italic;
         text-align:center;
         border-radius:10px;
         margin:-18px 15px 15px 0;
+        display:block;
+
     }
 
-    #next a {
+    #buybtn a {
         color:#fff;
         display:block;
     }
+
 
 
 
