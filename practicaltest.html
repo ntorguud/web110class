@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Practical Test Page</title>
+
+<style>
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background:#ddd;
+    background-attachment:fixed;
+    font-family:'Times New Roman', Times, serif;
+    color:#000;
+}
+
+#wrapper {
+    width:940px;
+    margin:20px auto;
+}
+
+header {
+    width:940px;
+    height:250px;
+    background:#0000ff;      
+}
+
+#banner {
+    width:940px;
+    height:200px;
+    background:#0000ff;  
+}
+
+#primary {
+    background:yellow;
+    height:50px;
+    line-height:50px;
+}
+
+#primary ul {
+
+}
+
+#primary li {
+    float:left;
+    list-style-type:none;
+    width:14.28%;
+    text-align:center;
+    font-weight:bold;
+}
+
+#primary a {
+    text-decoration:none;
+    color:#000;
+    display:block;
+}
+
+#primary a:hover {
+    background:#000;
+    color:#fff;
+    text-align:center;
+}
+
+aside {
+    background:lightblue;
+    height:300px;
+}
+
+.row {
+    clear:both;
+    /* margin-bottom:20px;
+    border-bottom:10px; */
+    overflow:hidden;
+}
+    
+.left {
+    width:300px;
+    float:left;
+    margin-right:20px;
+    padding:0;
+    text-align:center;
+    background:#ff3300;
+    height:300px;
+}
+
+.middle {
+    width:300px;
+    float:left;
+    margin-right:20px;
+    padding:0;
+    text-align:center;
+    background:#fff;
+    height:300px;
+}
+
+.right {
+    width:300px;
+    float:left;
+    padding:0;
+    text-align:center;
+    background: #ffcce6;
+    height:300px;
+}
+
+footer {
+    background:#666;
+    height:50px;
+    margin-bottom:20px;
+}
+
+footer img {
+    height:45px;
+    margin:20px auto;
+}
+
+.end ul {
+    text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+ 
+<header>
+  <div class="banner"></div>  
+</header>
+
+<nav id="primary">
+    <ul>
+      <li><a href="first.html">First</a></li>
+      <li><a href="second.html">Second</a></li>
+      <li><a href="third.html">Third</a></li>
+      <li><a href="fourth.html">Fourth</a></li>
+      <li><a href="fifth.html">Fifth</a></li>
+      <li><a href="sixth.html">Sixth</a></li>
+      <li><a href="last.html">Last</a></li>
+    </ul>
+  </nav>
+
+<aside>
+    <div class="row">
+        <div class="left"></div>
+        <div class="middle"></div>
+        <div class="right"></div>
+    </div>
+</aside>
+
+</div> 
+
+<footer>  
+</footer>
+
+<div class="end">
+  <ul>
+    <li><a href="https://validator.w3.org/check?uri=referer">HTML5 Valid</a></li>
+    <li><a href="https://validator.w3.org/check?uri=referer"><img src="images/html5.png" alt="html5" class="center"></a></li>
+  </ul>
+</div>
+
+</body>
+</html>
