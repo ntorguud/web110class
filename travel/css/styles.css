@@ -103,18 +103,36 @@
         margin-right:20px;
         padding:0;
         text-align:center;
+        background:lightblue;
     }
 
     .third p {
         font-size:.9em;
     }
 
-    /* .tours .third { 
-    } */
+    .tours .third {
+        background:none;
+        padding:0; 
+    }
 
     .third:nth-child(3) {
         margin-right:0;
     }
+
+    .col-8 {
+        width:460px;
+        float:left;
+        text-align:center;
+        /* height:300px; */
+        /* background:pink; */
+    }
+
+    /* .col-8:nth-child */
+
+    .col-8:last-of-type {
+        float:right;
+    }
+
 
     h1 {
         font-size:2.5em;
@@ -278,22 +296,26 @@
         background:#fff;
     }
 
-    #buybtn {
-        /* list-style-type:none; */
+    #offer ul {
+
+    }
+
+    #offer li {
+        list-style-type:none;
         background:red;
         height:35px;
         width:100px;
         line-height:35px;
-        /* float:right; */
+        float:right;
         font-style:italic;
         text-align:center;
         border-radius:10px;
-        margin:-18px 15px 15px 0;
+        margin:-17px 60px 15px 0;
         display:block;
-
+        transform:translate(50%, -50%);
     }
 
-    #buybtn a {
+    #offer a {
         color:#fff;
         display:block;
     }
