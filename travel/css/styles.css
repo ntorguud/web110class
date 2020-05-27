@@ -36,9 +36,7 @@
     }
 
     header {
-        /* background-color:yellow; */
         padding:10px 0 0 0;
-        /* background:yellow; */
         position:fixed;
         top:0; /* for keeping stable */
         width:100%;
