@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Practice Page</title>
+  <style>
+
+* {
+   padding:0;
+   margin:0; 
+}
+
+body {
+    /* background:#ddd; */
+    background-image:url(../images/theme3.jpg);
+    background-repeat:no-repeat;
+    font-family:Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper {
+      width:940px;
+      margin:20px auto;
+    }
+
+header {
+
+}
+
+nav {
+    background-color:#ddd;
+    height:50px;
+}
+
+#banner {
+        
+}
+
+main {
+    width:580px;
+    float:left;
+}
+
+aside {
+    background-color:lightblue;
+    width:340px;
+    float:right;
+}
+
+.home #primary li:nth-child(1) a, 
+.about #primary li:nth-child(2) a,
+.tours #primary li:nth-child(3) a,
+.promos #primary li:nth-child(4) a,
+.contact #primary li:nth-child(5) a {
+    background-color:lightblue;
+    color:#000;
+    text-align:center;
+}
+
+#primary {
+    background-color:#666;
+    height:50px;
+    line-height:50px;
+}
+
+#primary li {
+    float:left;
+    list-style-type:none; /*for disappearing bullets */
+    width:20%;
+    text-align:center;
+}
+
+#primary a {
+    text-decoration:none; /*for disappearing link underline*/
+    color:#fff;
+    display:block;
+}
+
+#primary a:hover {
+    background:#ccc;
+    color:#000;
+    text-align:center;
+}
+
+.row {
+        clear:both;
+        margin-bottom:20px;
+        border-bottom:10px; /*for giving space from footer */
+        overflow:hidden;
+
+.col-8 {
+    width:113px;
+    margin-right:4px;
+    text-align:center;
+    background:lightpink;
+    float:left;
+}
+
+.col-8:last-of-type {
+        float:right;
+    }
+
+.row img {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    display:block;
+}
+
+  </style>
+</head>
+
+<body>
+<header>
+
+<nav id="primary">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="tours.html">Tours</a></li>
+      <li><a href="promos.html">Promos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </header>
+
+  <div id="wrapper">
+
+  <div id="banner">
+  </div>
+
+  <main>
+    <h1>Welcome to Aurug Concept Webpage</h1>
+    <p>Aurug Concept Webpage is the virtual place that unites Mongolia's greatest talent in fashion design.
+    </p>
+  </main>
+
+  <aside>
+  </aside>
+
+  <div class="row"> <!--for placing multiple columns of row-->
+    <div class="col-8">
+      <a target="_blank" href="https://www.instagram.com/amuletulaanbaatarmongolia/">
+      <img src="images/amulet.png" alt="Amulet"></a>
+    </div>
+    <div class="col-8">
+      <a target="_blank" href="https://www.instagram.com/monroze_official/">
+      <img src="images/monroze.jpg" alt="Monroze"></a>
+    </div>
+    <div class="col-8">
+      <a target="_blank" href="https://www.instagram.com/o.couture_mongolian_brand/">
+      <img src="images/o-couture logo.jpeg" alt="O Couture"></a>
+    </div>
+    <div class="col-8">
+      <a target="_blank" href="https://www.instagram.com/kapriza_handicraft/">
+      <img src="images/kapriza.png" alt="Kapriza"></a>
+    </div>
+    <div class="col-8">
+      <a target="_blank" href="https://www.instagram.com/kapriza_handicraft/">
+      <img src="images/atoz.png" alt="Atoz"></a>
+    </div>
+    <div class="col-8">
+      <a target="_blank" href="http://michelamazonka.com/home-2-eng/">
+      <img src="images/michel&amazonka.png" alt="Michel&Amazonka"></a>
+    </div>
+    <div class="col-8">
+      <a target="_blank" href="https://www.instagram.com/esu_montee/?hl=en">
+      <img src="images/esumontee logo.jpg" alt="Esu Montee"></a>
+    </div>
+    <div class="col-8">
+      <a target="_blank" href="https://www.instagram.com/explore/tags/twinsocksmongolia/">
+      <img src="images/twinsocks.png" alt="Twin Socks"></a>
+    </div>
+  </div> <!-- end row -->
+
+  <footer>
+  </footer>
+  </div>
+</body>
+</html>
