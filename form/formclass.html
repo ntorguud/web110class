@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Form Classwork</title>
+
+<link href="css/stylesclass.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <form action="formhandler.php" method="post"> <!-- method="post" is secure-->
+    <fieldset>
+      <label>Name</label>
+        <input type="text" name="name">
+
+      <label>Email</label>
+        <input type="email" name="email">
+      
+      <label>Payment</label>
+        <ul>
+          <li><input type="radio" name="payment" value="amx">American Express</li>
+          <li><input type="radio" name="payment" value="visa">Visa</li>
+          <li><input type="radio" name="payment" value="mc">Master Card</li>
+          <li><input type="radio" name="payment" value="discover">Discover</li>
+        </ul>
+
+      <label>Wines</label>
+        <ul>
+          <li><input type="checkbox" name="wines[]" value="cab">Cabernet</li>
+          <li><input type="checkbox" name="wines[]" value="merlot">Merlot</li>
+          <li><input type="checkbox" name="wines[]" value="syrah">Syrah</li>
+          <li><input type="checkbox" name="wines[]" value="red-blend">Red Blend</li>
+        </ul> <!-- [] is for checking several things --> 
+
+      <label>Comments</label>
+        <textarea name="comments"></textarea>
+        <input type="submit" value="Send it!">
+    </fieldset>
+  </form>
+</body>
+</html>
