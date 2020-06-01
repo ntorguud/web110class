@@ -1,0 +1,54 @@
+/* styles for my rows website */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+#wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    height: 200px;
+    background: yellow;   
+}
+
+.container {
+    padding: 15px;
+    background: red;
+    overflow:hidden;
+
+
+}
+main {
+    width: 700px;
+    float: left;
+}
+
+aside {
+    height: 300px;
+    width: 220px;
+    float: right;
+    background: #eee;
+    padding-left: 15px;
+}
+
+.left {
+    float: left;
+    margin-right: 0pt;
+}
+
+.text {
+    float: right;
+    width: 400px;
+}
+
+.img {
+    width: 50px;
+}
