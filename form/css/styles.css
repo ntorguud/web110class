@@ -8,7 +8,29 @@
 
 body {
     padding:50px;
-    background:beige;
+    background-attachment:fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#wrapper {
+    width:940px;
+    margin:0 auto;
+}
+
+header {
+    
+}
+
+main {
+    border:1px solid lightblue;
+    width:580px;
+    float:left;
+}
+
+aside {
+    width:340px;
+    float:right;
+    margin-left:20px;
+    text-align:center;
 }
 
 form {
@@ -16,7 +38,7 @@ form {
 }
 
 label {
-    display:block; /*for becoming vertically */
+    display:block;
     margin-bottom:5px;
 }
 
@@ -55,3 +77,36 @@ form ul {
 form li {
     list-style-type:none;
 }
+
+
+
+footer {
+        clear:both;
+        background-color:#fff;
+        height:50px;
+        line-height:50px;
+        border-top:1px dotted #666;
+        padding-left:20px;
+        font-size:.9em; 
+        text-align: center;
+    }
+
+    footer ul {
+        /* float:right; */
+    }
+
+    footer li {
+        float:left;
+        list-style-type:none;
+        margin-left: 30px;
+        color: #666;
+    }
+
+    footer a {
+        color:#666;
+    }
+
+    footer img {
+        height:45px;
+        margin-bottom:4px;
+    }
