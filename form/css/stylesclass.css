@@ -22,6 +22,15 @@ label {
 
 fieldset {
     padding:10px;
+    border:1px dotted #888;
+    border-radius:5px;
+}
+
+legend {
+    font-size:q.4em;
+    color:red;
+    font-style:italic;
+    padding:0 5px;
 }
 
 input {
@@ -40,6 +49,15 @@ input[type=checkbox] {
     width:auto;
     height:auto;
     margin-right:15px;
+}
+
+select {
+    margin-bottom:10px;
+    padding:3px;
+}
+
+option {
+    
 }
 
 textarea {
