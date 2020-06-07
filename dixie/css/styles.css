@@ -1,0 +1,176 @@
+/* Styles for dixie demo page */
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family:verdana, helvetica, arial, sans-serif;
+    font-size:100%;
+}
+   
+header {
+    padding:10px 0;
+    background:beige;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+#logo {
+    float:left;
+    width:130px;
+}
+
+nav {
+    float:right;
+
+}
+
+nav li {
+    float:left;
+    list-style-type:none;
+    margin-left:30px; 
+    /* do not change the margin-left from pixels to % -leave it at pixels */
+}
+
+nav ul {
+    margin-top:40px;
+}
+
+nav a {
+    text-decoration:none;
+}
+
+#hero {
+    background-image:url(../images/babies.jpg);
+    min-height:750px;
+    clear:both;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:0 150px; /* values: left, top */
+}
+
+.row {
+    overflow:hidden;
+    clear:both;
+    padding:20px 0;
+    margin-bottom:20px;
+}
+
+.inner {
+    /* width:940px; */
+    max-width:1100px;
+    margin:0 auto;
+}
+
+.third {
+    /* width:300px; */
+    width:31.9%;
+    float:left;   
+    /* margin-right:20px; */
+    margin-right:2.12%;
+    padding:10px;
+}
+
+.third:last-of-type {
+    margin-right:0;
+}
+
+.col-8 {
+    /* width:460px; */
+    width:48.93%;
+    float:left;
+    /* margin-right:20px; */
+    margin-right:2.12%;
+}
+
+.col-8:last-of-type {
+    margin-right:0;
+}
+
+.background {
+    background:#ddd;
+}
+
+span {
+    display:block;
+    margin-top:6px;
+    text-align:center;
+}
+
+/*+++++++typography++++++ */
+
+h1 {
+    text-align:center;
+    font-size:3.8em;
+    margin-bottom:12px;
+    font-family:playfair, serif;
+    font-weight:200;
+}
+
+h2 {
+    font-family:playfair, serif;
+    font-size:2.8em;
+}
+
+h3 {
+    font-family:playfair, serif;
+    font-size:2em;
+    text-align:center;
+}
+
+img + h3 {
+    margin:15px 0 8px 0; /*for h3, if the h3 follows the image */
+}
+
+blockquote {
+    font-style:italic;
+    text-align:center;
+    font-size:2em;
+    /* margin:0 50px; */
+    margin:0 5.31%;
+    margin-bottom:20px;
+    line-height:1.17;
+}
+
+p {
+    margin-bottom:20px;
+    font-size:1.6em;
+    line-height:1.4;
+}
+
+.third p,
+.col-8 p {
+    font-size:1.2em;
+}
+
+img {
+    max-width:100%;
+    display:block;
+}
+
+footer {
+    height:70px;
+    line-height:70px;
+    border-top:1px dotted #999;
+}
+
+footer li {
+    float:left;
+    list-style-type:none;
+    margin-right:30px;
+}
+
+footer ul {
+
+}
+
+footer a {
+    text-decoration:none;
+}
