@@ -35,7 +35,6 @@ https://zoom.us/j/627976680
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
-
 </head>
 
 <body>
