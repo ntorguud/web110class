@@ -28,3 +28,16 @@ https://validator.w3.org/check?uri=referer"
 
 ## WEB110 Zoom link
 https://zoom.us/j/627976680
+
+## DOCTYPE Declaration
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+</head>
+
+<body>
+</body>
+</html>
