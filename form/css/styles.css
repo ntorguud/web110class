@@ -4,33 +4,68 @@
     margin:0;
     box-sizing:border-box;
 }
-/* I will be adding padding to the body for demonstration purposes only. Remove this when you start working on your homework assignment */
 
 body {
-    padding:50px;
+    background-image:url(../images/grey.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:5.32%;
     background-attachment:fixed;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:cavolini, 'Comic Sans MS', 'Century Gothic', calibri;
 }
 #wrapper {
-    width:940px;
+    max-width:1100px;
     margin:0 auto;
 }
 
-header {
+banner {
     
 }
 
+#logo {
+    width:25%;
+    display:block;
+    margin:10px auto;
+}
+
 main {
-    border:1px solid lightblue;
-    width:580px;
+    width:61.7%;
     float:left;
 }
 
 aside {
-    width:340px;
+    width:36.17%;
     float:right;
-    margin-left:20px;
+    margin-left:2.12%;
+    border-radius:10px;
+}
+
+aside li {
+    list-style-type:none;
+    float:left;
+    margin-bottom:20px;
+}
+
+aside ul {
+}
+
+aside a {
+    color:#000;
+}
+
+h1 {
     text-align:center;
+    margin-bottom:10px;
+    font-style:italic;
+}
+
+p {
+    margin-bottom:10px;
+    padding:5px;
+}
+
+span {
+    display:block;
 }
 
 form {
@@ -40,6 +75,21 @@ form {
 label {
     display:block;
     margin-bottom:5px;
+}
+
+fieldset {
+    padding:10px;
+    border:1px dotted #888;
+    border-radius:5px;
+    /* background:#ddd; */
+}
+
+legend {
+    font-size:1.7em;
+    font-style:italic;
+    padding:0 5px;
+    color:darkgoldenrod;
+    font-weight:bold;
 }
 
 fieldset {
@@ -54,7 +104,12 @@ input {
 
 input[type=submit] {
     width:auto;
-    /* padding:5px; */
+    height:auto;
+    font-family:cavolini, 'Comic Sans MS', 'Century Gothic', calibri;
+    padding:0 5px;
+    font-size:1.3em;
+    color:rgb(145, 101, 43);
+    font-weight:bold;
 }
 
 input[type=radio], 
@@ -76,9 +131,20 @@ form ul {
 
 form li {
     list-style-type:none;
+    padding:5px;
 }
 
+#image {
+    border-radius:10px;
+    margin-bottom:10px;
+    width:100%;
+}
 
+.thx {
+    width:61.7%;
+    font-size:3em;
+    float:left;
+}
 
 footer {
         clear:both;
