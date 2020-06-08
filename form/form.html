@@ -9,9 +9,9 @@
 
 <body>   
 <div id="wrapper">
-<banner>
+<header>
     <a href="form.html"><img id="logo" src="images/hu-logo.png" alt="The HU"></a>
-</banner>
+</header>
 
 <main>
   <form action="formhandler.php" method="post"> <!-- method="post" is secure-->
@@ -24,86 +24,112 @@
         <input type="email" name="email">
       
       <label>Phone Number</label>
-        <input type="phone" name="phone">
+        <input type="number" name="number">
 
-       
       <label>Home Address/optional/</label>
-        <input type="address" name="address">
+        <input type="text" name="text">
 
       <label>City</label>
-        <input type="city" name="city">
+        <input type="text" name="text">
 
       <label>State</label>
+        <select name="state">
+          <option value="state">Choose your state</option>
+          <option value="alabama">Alabama</option>
+          <option value="alaska">Alaska</option>
+          <option value="arizona">Arizona</option>
+          <option value="arkansas">Arkansas</option>
+          <option value="california">California</option>
+          <option value="colorado">Colorado</option>
+          <option value="connecticut">Connecticut</option>
+          <option value="delaware">Delaware</option>
+          <option value="district of columbia">District of Columbia</option>
+          <option value="florida">Florida</option>
+          <option value="georgia">Georgia</option>
+          <option value="hawaii">Hawaii</option>
+          <option value="idaho">Idaho</option>
+          <option value="illinois">Illinois</option>
+          <option value="indiana">Indiana</option>
+          <option value="iowa">Iowa</option>
+          <option value="kansas">Kansas</option>
+          <option value="kentucky">Kentucky</option>
+          <option value="louisana">Louisana</option>
+          <option value="maine">Maine</option>
+          <option value="maryland">Maryland</option>
+          <option value="massachusetts">Massachusetts</option>
+          <option value="michigan">Michigan</option>
+          <option value="minnesota">Minnesota</option>
+          <option value="mississipi">Mississipi</option>
+          <option value="missouri">Missouri</option>
+          <option value="montana">Montana</option>
+          <option value="nebraska">Nebraska</option>
+          <option value="nevada">Nevada</option>
+          <option value="new hampshire">New Hampshire</option>
+          <option value="new jersey">New Jersey</option>
+          <option value="new mexico">New Mexico</option>
+          <option value="new york">New York</option>
+          <option value="north carolina">North Carolina</option>
+          <option value="north dakota">North Dakota</option>
+          <option value="ohio">Ohio</option>
+          <option value="oklahama">Oklahama</option>
+          <option value="oregon">Oregon</option>
+          <option value="pennsylvania">Pennsylvania</option>
+          <option value="rhode island">Rhode Island</option>
+          <option value="south carolina">South Carolina</option>
+          <option value="south dakota">South Dakota</option>
+          <option value="tennessee">Tennessee</option>
+          <option value="texas">Texas</option>
+          <option value="utah">Utah</option>
+          <option value="velmont">Velmont</option>
+          <option value="virginia">Virginia</option>
+          <option value="washington">Washington</option>
+          <option value="west virginia">West Virginia</option>
+          <option value="wisconsin">Wisconsin</option>
+          <option value="wyoming">Wyoming</option>
+        </select>
+
+      <label>Gender</label>
+        <select name="gender">
+          <option value="gender">Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+
+      <label>Where did you hear about us?</label>
         <ul>
-          <li><input type="radio" name="state" value="alabama"></li>
-          <li><input type="radio" name="state" value="alaska"></li>
-          <li><input type="radio" name="state" value="arizona"></li>
-          <li><input type="radio" name="state" value="arkansas"></li>
-          <li><input type="radio" name="state" value="california"></li>
-          <li><input type="radio" name="state" value="colorado"></li>
-          <li><input type="radio" name="state" value="connecticut"></li>
-          <li><input type="radio" name="state" value="delaware"></li>
-          <li><input type="radio" name="state" value="district of columbia"></li>
-          <li><input type="radio" name="state" value="florida"></li>
-          <li><input type="radio" name="state" value="georgia"></li>
-          <li><input type="radio" name="state" value="hawaii"></li>
-          <li><input type="radio" name="state" value="idaho"></li>
-          <li><input type="radio" name="state" value="illinois"></li>
-          <li><input type="radio" name="state" value="indiana"></li>
-          <li><input type="radio" name="state" value="iowa"></li>
-          <li><input type="radio" name="state" value="kansas"></li>
-          <li><input type="radio" name="state" value="kentucky"></li>
-          <li><input type="radio" name="state" value="louisana"></li>
-          <li><input type="radio" name="state" value="maine"></li>
-          <li><input type="radio" name="state" value="maryland"></li>
-          <li><input type="radio" name="state" value="massachusetts"></li>
-          <li><input type="radio" name="state" value="michigan"></li>
-          <li><input type="radio" name="state" value="minnesota"></li>
-          <li><input type="radio" name="state" value="mississipi"></li>
-          <li><input type="radio" name="state" value="missouri"></li>
-          <li><input type="radio" name="state" value="montana"></li>
-          <li><input type="radio" name="state" value="nebraska"></li>
-          <li><input type="radio" name="state" value="nevada"></li>
-          <li><input type="radio" name="state" value="new hampshire"></li>
-          <li><input type="radio" name="state" value="new jersey"></li>
-          <li><input type="radio" name="state" value="new mexico"></li>
-          <li><input type="radio" name="state" value="new york"></li>
-          <li><input type="radio" name="state" value="north carolina"></li>
-          <li><input type="radio" name="state" value="north dakota"></li>
-          <li><input type="radio" name="state" value="ohio"></li>
-          <li><input type="radio" name="state" value="oklahama"></li>
-          <li><input type="radio" name="state" value="oregon"></li>
-          <li><input type="radio" name="state" value="pennsylvania"></li>
-          <li><input type="radio" name="state" value="rhode island"></li>
-          <li><input type="radio" name="state" value="south carolina"></li>
-          <li><input type="radio" name="state" value="south dakota"></li>
-          <li><input type="radio" name="state" value="tennessee"></li>
-          <li><input type="radio" name="state" value="texas"></li>
-          <li><input type="radio" name="state" value="utah"></li>
-          <li><input type="radio" name="state" value="velmont"></li>
-          <li><input type="radio" name="state" value="virginia"></li>
-          <li><input type="radio" name="state" value="washington"></li>
-          <li><input type="radio" name="state" value="west virginia"></li>
-          <li><input type="radio" name="state" value="wisconsin"></li>
+          <li><input type="checkbox" name="where[]" value="friend">A friend or colleague</li>
+          <li><input type="checkbox" name="where[]" value="google">Google</li>
+          <li><input type="checkbox" name="where[]" value="blogspot">Blogspot</li>
+          <li><input type="checkbox" name="where[]" value="article">News article</li>
+        </ul> <!-- [] is for checking several things --> 
+
+      <label>Which application do you prefer?</label>
+        <ul>
+          <li><input type="checkbox" name="app[]" value="spotify">Spotify</li>
+          <li><input type="checkbox" name="app[]" value="amazon">Amazon</li>
+          <li><input type="checkbox" name="app[]" value="apple">Apple Music</li>
+          <li><input type="checkbox" name="app[]" value="deezer">Deezer</li>
         </ul>
 
-      <label>Wines</label>
+      <label>How would you like to receive the latest information?</label>
         <ul>
-          <li><input type="checkbox" name="wines[]" value="cab">Cabernet</li>
-          <li><input type="checkbox" name="wines[]" value="merlot">Merlot</li>
-          <li><input type="checkbox" name="wines[]" value="syrah">Syrah</li>
-          <li><input type="checkbox" name="wines[]" value="red-blend">Red Blend</li>
-        </ul> <!-- [] is for checking several things --> 
+          <li><input type="radio" name="info" value="email">Email</li>
+          <li><input type="radio" name="info" value="text">Text Message</li>
+          <li><input type="radio" name="info" value="mailbox">Mailbox</li>
+          <li><input type="radio" name="info" value="no info">No Info</li>
+        </ul>
 
       <label>Comments</label>
         <textarea name="comments"></textarea>
+        
         <a href="thx.html"><input type="submit" value="Join now !"></a>
     </fieldset>
   </form>
   </main>
 
   <aside>
-    <img id="image" src="images/the hu 3.jpg" alt="The HU">
+    <img id="image" src="images/hu3.jpg" alt="The HU">
+    
     <h1>The HU Band</h1>
     <p><b>The HU</b> is a band from Mongolia that blends heavy metal and traditional Mongolian throat singing.  Their first two videos (<a target="_blank" href="https://youtu.be/v4xZUr0BEfE">“Yuve Yuve Yu”</a> and <a target="_blank" href="https://youtu.be/jM8dCGIm6yc">“Wolf Totem”</a>) immediately went viral garnering the band over 30 million views.  The explosive reaction to The HU resulted in a number of features about the band in international media such as NPR, ET India Times, Playboy Mexico, Jack Canal+Fr, Hong Kong 01, DW News Germany and others. 
 The band’s name The HU, is the Mongolian root word for human being.  They call their style <b>“Hunnu Rock”</b>…inspired by the Hunnu, an ancient Mongolian empire.
