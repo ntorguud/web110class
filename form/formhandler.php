@@ -38,7 +38,7 @@ foreach ($_POST as $key => $value) {
 
 	
 	
-$from='From: '. $email . "(" . $name . ")" . "\r\n" . 'Bcc: ntorguu0@email.cpcc.edu' . "\r\n";
+$from='From: '. $email . "(" . $name . ")" . "\r\n" . 'Bcc: jenny.oyuka@gmail.com' . "\r\n";
 // sends bcc to alternate address 
 
 //Creates intelligible subject line that shows where it came from
