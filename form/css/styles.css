@@ -122,6 +122,7 @@ input[type=submit] {
     font-size:1.3em;
     color:rgb(145, 101, 43);
     font-weight:bold;
+    display:block;
 }
 
 input[type=radio], 
