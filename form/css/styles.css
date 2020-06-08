@@ -18,7 +18,7 @@ body {
     margin:0 auto;
 }
 
-banner {
+header {
     
 }
 
@@ -33,6 +33,10 @@ main {
     float:left;
 }
 
+select {
+    font-family:cavolini, 'Comic Sans MS', 'Century Gothic', calibri;
+    margin-bottom:10px;
+}
 aside {
     width:36.17%;
     float:right;
@@ -59,6 +63,10 @@ h1 {
     font-style:italic;
 }
 
+h2 {
+    font-size:3em;
+}
+
 p {
     margin-bottom:10px;
     padding:5px;
@@ -74,7 +82,7 @@ form {
 
 label {
     display:block;
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 
 fieldset {
@@ -94,6 +102,7 @@ legend {
 
 fieldset {
     padding:10px;
+    margin-bottom:20px;
 }
 
 input {
@@ -140,39 +149,38 @@ form li {
     width:100%;
 }
 
-.thx {
-    width:61.7%;
-    font-size:3em;
-    float:left;
+#second {
+    width:40%;
+    margin:50px auto;
 }
 
 footer {
-        clear:both;
-        background-color:#fff;
-        height:50px;
-        line-height:50px;
-        border-top:1px dotted #666;
-        padding-left:20px;
-        font-size:.9em; 
-        text-align: center;
-    }
+    clear:both;
+    background-color:#fff;
+    height:50px;
+    line-height:50px;
+    border-top:1px dotted #666;
+    padding-left:20px;
+    font-size:.9em; 
+    text-align: center;
+}
 
-    footer ul {
-        /* float:right; */
-    }
+footer ul {
+    /* float:right; */
+}
 
-    footer li {
-        float:left;
-        list-style-type:none;
-        margin-left: 30px;
-        color: #666;
-    }
+footer li {
+    float:left;
+    list-style-type:none;
+    margin-left: 30px;
+    color: #666;
+}
 
-    footer a {
-        color:#666;
-    }
+footer a {
+    color:#666;
+}
 
-    footer img {
-        height:45px;
-        margin-bottom:4px;
-    }
+footer img {
+    height:45px;
+    margin-bottom:4px;
+}
