@@ -1,0 +1,40 @@
+* {
+    padding:0;
+    margin:0;
+}
+#wrapper {
+    width:940px;
+    margin:20px auto;
+    clear:both;
+}
+
+main {
+    width:580px;
+    float:left;
+    background:lightgray;
+}
+
+aside {
+    width:340px;
+    float:right;
+}
+
+table {
+    width:560px;
+    border:1px solid red;
+    border-collapse:collapse; /*no lines*/
+    margin:0 auto;
+}
+
+td {
+    border:1px solid red;
+    width:25%;
+    vertical-align:top;
+    padding:10px;
+}
+
+th {
+    background:yellow;
+    padding:15px;
+    font-size:2em;
+}
