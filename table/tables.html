@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tables Exercise</title>
+
+<!-- Remy Sharp Shim -->
+<!-- [if lte IE 9] -->
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
+</script>
+<!-- [endif] -->
+
+<style>
+  * {
+    padding:0;
+    margin:0;
+}
+#wrapper {
+    width:940px;
+    margin:20px auto;
+    clear:both;
+}
+
+main {
+    width:580px;
+    float:left;
+    background:lightgray;
+}
+
+aside {
+    width:340px;
+    float:right;
+}
+
+table {
+    width:560px;
+    border:1px solid red;
+    border-collapse:collapse; /*no lines*/
+    margin:0 auto;
+}
+
+td {
+    border:1px solid red;
+    width:25%;
+    vertical-align:top;
+    padding:10px;
+}
+
+th {
+    background:yellow;
+    padding:15px;
+    font-size:2em;
+}
+</style>
+
+</head>
+
+<body>
+  <div id="wrapper">
+  </div> <!-- end wrapper-->
+
+  <main>
+    <table>
+    <!-- first row -->
+      <tr>
+        <th colspan="4">This is our Table Heading</th>
+        <!-- <th>2</th>
+        <th>3</th>
+        <th>4</th> -->
+      </tr>
+
+      <tr>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+      </tr>
+
+      <tr>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+      </tr>
+
+      
+    </table>
+  </main>
+
+  <aside>
+    <h3>My Headline 3 in the aside</h3>
+  </aside>
+</body>
+</html>
