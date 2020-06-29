@@ -135,8 +135,6 @@
         /* background:pink; */
     }
 
-    /* .col-8:nth-child */
-
     .col-8:last-of-type {
         float:right;
     }
@@ -277,7 +275,6 @@
     #primary a:hover {
         background:#B3DAF2;
         color:#000;
-        text-align:center;
     }
 
     .drop-down {
@@ -293,7 +290,6 @@
 
     #primary li:hover .drop-down li {
         float:none;
-        text-align:center;  
     }
 
     #primary li:hover .drop-down li a:hover {
