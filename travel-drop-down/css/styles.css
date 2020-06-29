@@ -60,11 +60,6 @@
         margin:20px auto;
     }
 
-    /* nav {
-        background-color:#ddd;
-        height:50px;
-    } */
-
     #banner {
         
     }
@@ -296,7 +291,6 @@
         left:0;
         background:#B3DAF2;
         width:100%;
-
     }
 
     #primary li:hover .drop-down li {
